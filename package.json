@@ -1,0 +1,42 @@
+{
+  "name": "portal",
+  "main": "./index.js",
+  "version": "0.3.3",
+  "description": "Atom package for Portal Editor",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "portal:toggle"
+  },
+  "repository": "https://github.com/Portal-Editor/Portal-Atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "bluebird": "^3.5.1",
+    "chokidar": "^2.0.3",
+    "etch": "^0.12.6",
+    "fs-extra": "^6.0.1",
+    "ot-text": "^1.0.1",
+    "path": "^0.12.7",
+    "sharedb": "1.0.0-beta.7",
+    "streamifier": "^0.1.1",
+    "tachyons": "^4.9.1",
+    "unzip": "^0.1.11",
+    "websocket-push-stream": "^0.1.0",
+    "ws": "^2.2.2"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "tree-view": {
+      "versions": {
+        "^1.0.0": "consumeTreeView"
+      }
+    }
+  }
+}
